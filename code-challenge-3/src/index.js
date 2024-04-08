@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 // how the button for delete works
             const deleteButton = document.createElement("button");
-            deleteButton.textContent = "Delete";
+            deleteButton.textContent = "DELETE";
             deleteButton.classList.add("delete-button");
             deleteButton.addEventListener("click", function(event) {
                 event.stopPropagation();
